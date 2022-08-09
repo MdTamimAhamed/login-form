@@ -1,0 +1,55 @@
+/*Login styles*/
+.left-col{
+    flex-basis: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--primary);
+    border-radius: 15px 0px 0px 15px;
+}
+
+/*------------------->Left col- top text*/
+.top_txt{
+    padding: 60px 20px;
+}
+.top_txt h1{
+    font-size: 1.6em;
+    font-weight: 500;
+    color: var(--pure-white);
+}
+.top_txt p{
+    color: var(--pure-white);
+    font-size: .8em;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+/*-------------------->Left col- top text*/
+.bottom_txt{
+    padding: 60px 20px;
+}
+.signup_link{
+    cursor: pointer;
+}
+.signup_link:hover{
+    text-decoration: underline;
+}
+.utility{
+    color: var(--pure-white);
+    font-size: .8em;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.alter{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+}
+.alter a i{
+    color: var(--pure-white);
+    font-size: 1.3em;
+}
+.alter a:nth-child(2){
+    margin-left: 10px;
+}
