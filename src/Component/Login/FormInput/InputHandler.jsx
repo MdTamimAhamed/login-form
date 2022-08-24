@@ -1,4 +1,4 @@
-import './InputHandler.css'
+import styles from './InputHandler.module.css'
 const InputHandler = ({state,setState,type,autoComplete,name,placeholder})=>{
 
     const userInput= (e)=>{
@@ -6,7 +6,7 @@ const InputHandler = ({state,setState,type,autoComplete,name,placeholder})=>{
     }
     return(
         <>
-            <div className="input-field">
+            <div className={styles.input_field}>
                 <input 
                 value={state}
                 onChange={userInput}

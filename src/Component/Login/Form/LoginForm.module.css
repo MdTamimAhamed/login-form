@@ -6,7 +6,7 @@
     border-radius: 15px;
     background-color: #fff;
 }
-.top-content{
+.top_content{
     line-height: 25px;
     margin-bottom: 30px;
 }
@@ -22,7 +22,7 @@
 }
 
 
-.form-area .heading{
+.form_area .heading{
     color: var(--primary) ;
     font-size: 1.7em;
     font-weight: 600;
@@ -41,7 +41,7 @@
     cursor: pointer;
 }
 
-.bottom-content{
+.bottom_content{
     margin-top: 60px;
 }
 .s_size{
