@@ -1,6 +1,7 @@
 import styles from './LoginForm.module.css'
 import InputHandler from '../InputHandler/InputHandler'
 import React,{ useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const LoginForm = ()=>{
     const [email, setEmail] = useState('');
@@ -33,7 +34,7 @@ const LoginForm = ()=>{
                 <button className={styles.sign_btn} type='submit'>Sign In</button>
               </form>
               <div className={styles.bottom_content}>
-                <p className={styles.s_size}>No account? <span className={styles.link_sign_up}>Sign Up</span></p>
+                <p className={styles.s_size}>No account? <span className={styles.link_sign_up}><Link to= '/signup'>Sign Up</Link></span></p>
                 <p className={styles.s_size}>Or sign in with</p>
                 <div className={styles.socials}>
                   <a href='www.google.com'><i className ="fa-brands fa-google"></i></a>
