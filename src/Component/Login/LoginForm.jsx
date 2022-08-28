@@ -1,5 +1,5 @@
 import styles from './LoginForm.module.css'
-import InputHandler from '../FormInput/InputHandler'
+import InputHandler from '../InputHandler/InputHandler'
 import React,{ useState } from 'react';
 
 const LoginForm = ()=>{
